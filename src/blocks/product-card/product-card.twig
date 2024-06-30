@@ -1,0 +1,17 @@
+<div class="cards-grid__card product-card _product-card"
+    data-id="{{id}}"
+    data-price="{{price}}" 
+    data-poster={{img}} 
+    data-description="{{description}}" 
+    data-title="{{title}}"
+>
+    <picture>
+        <source srcset="{{img}}" type="image/webp">
+        <img class="product-card__poster" src="{{img}}" alt="Poster">
+    </picture>
+    <span class="product-card__price">{{price}} ₽</span>
+    <a class="product-card__name" href="#">{{title}}</a>
+    <span class="product-card__autor">{{autor}}</span>
+    <p class="product-card__description">{{description}}</p>
+    <button onclick="project.productCard.openDetailedPopup(this)" class="product-card__open-detailed">Подробнее</button>
+</div>

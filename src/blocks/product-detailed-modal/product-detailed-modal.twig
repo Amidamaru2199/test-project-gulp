@@ -1,0 +1,20 @@
+<div class="popup__content product-detail-popup _popup-content">
+    <div onclick="project.popup.close()" class="popup__close-btn">
+        {% include '/assets/svg/close.svg' %}
+    </div>
+     <picture>
+        <source class="_poster-alt" type="image/webp">
+        <img class="product-card__poster _poster" alt="Poster">
+    </picture>
+    <div class="product-detail-popup__content">
+        <h3 class="product-detail-popup__title _title"></h3>
+        <p class="product-detail-popup__description _description"></p>
+        <button class="product-detail-popup__button" onclick="project.productDetailedModal.addToCart()">Добавит в корзину</button>
+        <div class="product-detail-popup__counter counter">
+            <button class="counter__decrease" onclick="project.productDetailedModal.decreaseQuantity()">-</button>
+            <div class="counter__value _value"></div>
+            <button class="counter__increase" onclick="project.productDetailedModal.increaseQuantity()">+</button>
+            <span class="counter__summ">Сумма: <span class="_summ"></span> ₽</span>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,167 @@
+	<!DOCTYPE html>
+	<html>
+
+	<head>
+		<!--[if IE 6]>		<html id="section-reco_main" class="nojs ie6 ieb7 ieb8 ieb9 ieb10 split1 nosplit5 platform-PC platform-notouch"><![endif]-->
+		<!--[if IE 7]>		<html id="section-reco_main" class="nojs iea6 ie7 ieb8 ieb9 ieb10 split1 nosplit5 platform-PC platform-notouch"><![endif]-->
+		<!--[if IE 8]>		<html id="section-reco_main" class="nojs iea6 iea7 ie8 ieb9 ieb10 split1 nosplit5 platform-PC platform-notouch"><![endif]-->
+		<!--[if IE 9]>		<html id="section-reco_main" class="nojs iea6 iea7 iea8 ie9 ieb10 split1 nosplit5 platform-PC platform-notouch"><![endif]-->
+		<meta name="viewport" content="width=device-width">
+		<meta name="MobileOptimized" content="320" />
+		<meta name="HandheldFriendly" content="true" />
+		<meta charset="utf-8">
+		<meta name="viewport min-width=320px" content="min-width=320, initial-scale=1.0" />
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="style.css">
+		<link rel="stylesheet" type="text/css" href="./style.css">
+		<!--[if lt IE 9]>
+		<script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/r29/html5.min.js"></script>
+	<![endif]-->
+		<title>index</title>
+	</head>
+
+	<body>
+
+
+		<div class="container">
+			<div class="cart">
+				<div class="cart__wrapper">
+					<h2>Корзина</h2>
+					<button class="cart__clear-button" onclick="project.cartModule.clearCart()">Очистить корзину</button>
+				</div>
+				<div class="cart__items"></div>
+			</div>
+			<section class="cards">
+				<h1>Манга</h1>
+				<div class="cards-grid">
+					<div class="cards-grid__card product-card _product-card" data-id="1" data-price="1200" data-poster=img/men.webp data-description="Ужасные новости: Вэй Усянь не умер! Праведные заклинатели
+            хватаются кто за сердце, кто за меч. Оказалось, негодяй скрывался за маской печально известного Мо
+            Сюаньюя. Хотя чему тут удивляться? Что один шёл по кривой дорожке, что второй." data-title="Основатель Темного Пути. Маньхуа. Том 8">
+						<picture>
+							<source srcset="img/men.webp" type="image/webp">
+							<img class="product-card__poster" src="img/men.webp" alt="Poster">
+						</picture>
+						<span class="product-card__price">1200 ₽</span>
+						<a class="product-card__name" href="#">Основатель Темного Пути. Маньхуа. Том 8</a>
+						<span class="product-card__autor">Тунсю Мосян</span>
+						<p class="product-card__description">Ужасные новости: Вэй Усянь не умер! Праведные заклинатели
+							хватаются кто за сердце, кто за меч. Оказалось, негодяй скрывался за маской печально известного Мо
+							Сюаньюя. Хотя чему тут удивляться? Что один шёл по кривой дорожке, что второй.</p>
+						<button onclick="project.productCard.openDetailedPopup(this)" class="product-card__open-detailed">Подробнее</button>
+					</div>
+					<div class="cards-grid__card product-card _product-card" data-id="2" data-price="880" data-poster=img/demons.webp data-description="Демоны молодой луны, Хантэнгу и Гёкко, нападают на скрытую деревню кузнецов! Тандзиро и Гэнъя принимают неравный бой с Хантэнгу, — демоном который каждый раз, когда его ранят, делится на части и становится сильнее. Тем временем туманный столп Токито не слишком торопится помогать другим. Но тут он замечает, как Котэцу отбивается от демона" data-title="Истребитель демонов. Том 13. Перемены">
+						<picture>
+							<source srcset="img/demons.webp" type="image/webp">
+							<img class="product-card__poster" src="img/demons.webp" alt="Poster">
+						</picture>
+						<span class="product-card__price">880 ₽</span>
+						<a class="product-card__name" href="#">Истребитель демонов. Том 13. Перемены</a>
+						<span class="product-card__autor">Готогэ Коёхару</span>
+						<p class="product-card__description">Демоны молодой луны, Хантэнгу и Гёкко, нападают на скрытую деревню кузнецов! Тандзиро и Гэнъя принимают неравный бой с Хантэнгу, — демоном который каждый раз, когда его ранят, делится на части и становится сильнее. Тем временем туманный столп Токито не слишком торопится помогать другим. Но тут он замечает, как Котэцу отбивается от демона</p>
+						<button onclick="project.productCard.openDetailedPopup(this)" class="product-card__open-detailed">Подробнее</button>
+					</div>
+					<div class="cards-grid__card product-card _product-card" data-id="3" data-price="2200" data-poster=img/gto.webp data-description="Несмотря на фирменный оптимизм Онидзуки, жизнь у него не сахар: то приходится выяснять отношения с завистливыми коллегами, то решать проблемы трудных подростков... А отдыхать-то когда? Может, хотя бы в поездке на Окинаву можно будет расслабиться? Нет, не тут-то было! В новой обстановке ученики класса 3-4 открывают в себе неожиданные стороны: кто-то – охотника за кладами, кто-то – садиста, кто-то – героя, а кто-то умудряется даже влюбиться! И угадайте, кому придётся разгребать последствия..." data-title="GTO. Крутой учитель Онидзука. Книга 5">
+						<picture>
+							<source srcset="img/gto.webp" type="image/webp">
+							<img class="product-card__poster" src="img/gto.webp" alt="Poster">
+						</picture>
+						<span class="product-card__price">2200 ₽</span>
+						<a class="product-card__name" href="#">GTO. Крутой учитель Онидзука. Книга 5</a>
+						<span class="product-card__autor">Фудзисава Тору</span>
+						<p class="product-card__description">Несмотря на фирменный оптимизм Онидзуки, жизнь у него не сахар: то приходится выяснять отношения с завистливыми коллегами, то решать проблемы трудных подростков... А отдыхать-то когда? Может, хотя бы в поездке на Окинаву можно будет расслабиться? Нет, не тут-то было! В новой обстановке ученики класса 3-4 открывают в себе неожиданные стороны: кто-то – охотника за кладами, кто-то – садиста, кто-то – героя, а кто-то умудряется даже влюбиться! И угадайте, кому придётся разгребать последствия...</p>
+						<button onclick="project.productCard.openDetailedPopup(this)" class="product-card__open-detailed">Подробнее</button>
+					</div>
+					<div class="cards-grid__card product-card _product-card" data-id="4" data-price="1460" data-poster=img/leveling.webp data-description="ПОВЫШЕНИЕ УРОВНЯ! Перед Сон Чину, слабейшим охотником Е-ранга, после событий в двойном подземелье открылись возможности загадочной Системы. Теперь ему ежедневно приходят сообщения и задания, а в награду за одно из них он получает ключ от уникального подземелья со странными монстрами, о которых он даже не слышал. Система даровала охотнику возможность прокачивать навыки и развивать особые способности. Постепенно парень осознаёт, что может достичь большего и забыть о прежних неудачах. Но как далеко ему придётся зайти в поисках силы?" data-title="Поднятие уровня в одиночку. Solo Leveling.">
+						<picture>
+							<source srcset="img/leveling.webp" type="image/webp">
+							<img class="product-card__poster" src="img/leveling.webp" alt="Poster">
+						</picture>
+						<span class="product-card__price">1460 ₽</span>
+						<a class="product-card__name" href="#">Поднятие уровня в одиночку. Solo Leveling.</a>
+						<span class="product-card__autor">Чхугон</span>
+						<p class="product-card__description">ПОВЫШЕНИЕ УРОВНЯ! Перед Сон Чину, слабейшим охотником Е-ранга, после событий в двойном подземелье открылись возможности загадочной Системы. Теперь ему ежедневно приходят сообщения и задания, а в награду за одно из них он получает ключ от уникального подземелья со странными монстрами, о которых он даже не слышал. Система даровала охотнику возможность прокачивать навыки и развивать особые способности. Постепенно парень осознаёт, что может достичь большего и забыть о прежних неудачах. Но как далеко ему придётся зайти в поисках силы?</p>
+						<button onclick="project.productCard.openDetailedPopup(this)" class="product-card__open-detailed">Подробнее</button>
+					</div>
+					<div class="cards-grid__card product-card _product-card" data-id="5" data-price="979" data-poster=img/magic.webp data-description="«Смертельная миграция» набирает обороты! Студенты магического колледжа быстро приходят к выводу, что нельзя терять ни минуты: если они хотят сорвать план Кэндзяку, им придется принять участие в его жестокой игре. Юдзи Итадори и Мэгуми Фусигуро отправляются в колонию Токио № 1, где надеются заручиться поддержкой Хигурумы, одного из сильнейших игроков. Но не успевают заклинатели оказаться на территории проведения игры, как на них нападают другие участники, жаждущие крови!" data-title="Магическая битва. Книга 10. Колония Токио № 1. Колония Сэндай">
+						<picture>
+							<source srcset="img/magic.webp" type="image/webp">
+							<img class="product-card__poster" src="img/magic.webp" alt="Poster">
+						</picture>
+						<span class="product-card__price">979 ₽</span>
+						<a class="product-card__name" href="#">Магическая битва. Книга 10. Колония Токио № 1. Колония Сэндай</a>
+						<span class="product-card__autor">Гэгэ Акутами</span>
+						<p class="product-card__description">«Смертельная миграция» набирает обороты! Студенты магического колледжа быстро приходят к выводу, что нельзя терять ни минуты: если они хотят сорвать план Кэндзяку, им придется принять участие в его жестокой игре. Юдзи Итадори и Мэгуми Фусигуро отправляются в колонию Токио № 1, где надеются заручиться поддержкой Хигурумы, одного из сильнейших игроков. Но не успевают заклинатели оказаться на территории проведения игры, как на них нападают другие участники, жаждущие крови!</p>
+						<button onclick="project.productCard.openDetailedPopup(this)" class="product-card__open-detailed">Подробнее</button>
+					</div>
+					<div class="cards-grid__card product-card _product-card" data-id="6" data-price="906" data-poster=img/nanami.webp data-description="31 октября 2018 года, Токио. Район Сибуя внезапно накрывает Завеса, не выпускающая местных жителей за свои пределы. Вокруг барьера собираются заклинатели магического колледжа — им приказано не вмешиваться и ждать дальнейших указаний. Тем временем за Завесу заходит Сатору Годзё, самый сильный из магов: проникнув на станцию метро, оказавшуюся в опасной зоне, он понимает, что проклятые духи взяли в заложники не одну сотню гражданских. Сатору вступает в схватку с врагами, еще не зная, что за боем внимательно наблюдает Сугуру Гэто — зловещий проклинатель, цель которого — запечатать Годзё во Вратах Заключения… В книгу вошли главы 89–106." data-title="Магическая битва. Книга 6. Инцидент в Сибуе: Открыть врата. Спиритизм">
+						<picture>
+							<source srcset="img/nanami.webp" type="image/webp">
+							<img class="product-card__poster" src="img/nanami.webp" alt="Poster">
+						</picture>
+						<span class="product-card__price">906 ₽</span>
+						<a class="product-card__name" href="#">Магическая битва. Книга 6. Инцидент в Сибуе: Открыть врата. Спиритизм</a>
+						<span class="product-card__autor">Гэгэ Акутами</span>
+						<p class="product-card__description">31 октября 2018 года, Токио. Район Сибуя внезапно накрывает Завеса, не выпускающая местных жителей за свои пределы. Вокруг барьера собираются заклинатели магического колледжа — им приказано не вмешиваться и ждать дальнейших указаний. Тем временем за Завесу заходит Сатору Годзё, самый сильный из магов: проникнув на станцию метро, оказавшуюся в опасной зоне, он понимает, что проклятые духи взяли в заложники не одну сотню гражданских. Сатору вступает в схватку с врагами, еще не зная, что за боем внимательно наблюдает Сугуру Гэто — зловещий проклинатель, цель которого — запечатать Годзё во Вратах Заключения… В книгу вошли главы 89–106.</p>
+						<button onclick="project.productCard.openDetailedPopup(this)" class="product-card__open-detailed">Подробнее</button>
+					</div>
+					<div class="cards-grid__card product-card _product-card" data-id="7" data-price="1599" data-poster=img/naruto.webp data-description="Саскэ наконец-то отыскал брата и теперь ни за что не отступит, пока не отомстит за весь клан Утиха. Правда, одолеть Итати будет совсем непросто, ведь кроме одного из мощнейших додзюцу, мангёко-сярингана, в арсенале его техник еще и «Аматерацу» — вечное пламя, которое невозможно погасить… Тем временем Наруто и другие ниндзя из отряда, сформированного для поисков Саскэ, сталкиваются с загадочным участником «Рассвета», чье лицо скрыто под маской. Какими бы приемами синоби Листвы не атаковали противника, ранить его не выходит. Но что самое странное – враг обладает сяринганом! Техникой клана Утиха, давным-давно уничтоженного Итати" data-title="Naruto. Наруто. Книга 15. Хранитель правды: Тома 43-45: манга">
+						<picture>
+							<source srcset="img/naruto.webp" type="image/webp">
+							<img class="product-card__poster" src="img/naruto.webp" alt="Poster">
+						</picture>
+						<span class="product-card__price">1599 ₽</span>
+						<a class="product-card__name" href="#">Naruto. Наруто. Книга 15. Хранитель правды: Тома 43-45: манга</a>
+						<span class="product-card__autor">Кисимото Масаси</span>
+						<p class="product-card__description">Саскэ наконец-то отыскал брата и теперь ни за что не отступит, пока не отомстит за весь клан Утиха. Правда, одолеть Итати будет совсем непросто, ведь кроме одного из мощнейших додзюцу, мангёко-сярингана, в арсенале его техник еще и «Аматерацу» — вечное пламя, которое невозможно погасить… Тем временем Наруто и другие ниндзя из отряда, сформированного для поисков Саскэ, сталкиваются с загадочным участником «Рассвета», чье лицо скрыто под маской. Какими бы приемами синоби Листвы не атаковали противника, ранить его не выходит. Но что самое странное – враг обладает сяринганом! Техникой клана Утиха, давным-давно уничтоженного Итати</p>
+						<button onclick="project.productCard.openDetailedPopup(this)" class="product-card__open-detailed">Подробнее</button>
+					</div>
+					<div class="cards-grid__card product-card _product-card" data-id="8" data-price="1329" data-poster=img/onepice.webp data-description="Архипелаг Сабанди превращается в зону боевых действий! Защищая своих друзей Кейми и Хати, Луффи нарушает строжайший закон: он поднимает руку на представителя Мировой Знати. Такой поступок не может остаться безнаказанным, поэтому в мгновение ока на архипелаг прибывает Желтая Обезьяна, адмирал флота, наделенный убийственными сверхсилами. И в своей погоне за преступниками он не остановится ни перед чем. Однако появление грозного соперника – лишь первая из неприятностей, которые в скором времени ожидают Луффи и его команду." data-title="One Piece. Большой куш. 18. Конфликт неизбежен: Книги 52-54: манга">
+						<picture>
+							<source srcset="img/onepice.webp" type="image/webp">
+							<img class="product-card__poster" src="img/onepice.webp" alt="Poster">
+						</picture>
+						<span class="product-card__price">1329 ₽</span>
+						<a class="product-card__name" href="#">One Piece. Большой куш. 18. Конфликт неизбежен: Книги 52-54: манга</a>
+						<span class="product-card__autor">Ода Эйитиро</span>
+						<p class="product-card__description">Архипелаг Сабанди превращается в зону боевых действий! Защищая своих друзей Кейми и Хати, Луффи нарушает строжайший закон: он поднимает руку на представителя Мировой Знати. Такой поступок не может остаться безнаказанным, поэтому в мгновение ока на архипелаг прибывает Желтая Обезьяна, адмирал флота, наделенный убийственными сверхсилами. И в своей погоне за преступниками он не остановится ни перед чем. Однако появление грозного соперника – лишь первая из неприятностей, которые в скором времени ожидают Луффи и его команду.</p>
+						<button onclick="project.productCard.openDetailedPopup(this)" class="product-card__open-detailed">Подробнее</button>
+					</div>
+				</div>
+			</section>
+		</div>
+
+
+		<div style="display: none;" class="_product-detailed-modal">
+			<div class="popup__content product-detail-popup _popup-content">
+				<div onclick="project.popup.close()" class="popup__close-btn">
+					<?xml version="1.0" ?>
+					<!DOCTYPE svg PUBLIC '-//W3C//DTD SVG 1.1//EN' 'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'><svg height="512px" id="Layer_1" style="enable-background:new 0 0 512 512;" version="1.1" viewBox="0 0 512 512" width="512px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+						<path d="M443.6,387.1L312.4,255.4l131.5-130c5.4-5.4,5.4-14.2,0-19.6l-37.4-37.6c-2.6-2.6-6.1-4-9.8-4c-3.7,0-7.2,1.5-9.8,4  L256,197.8L124.9,68.3c-2.6-2.6-6.1-4-9.8-4c-3.7,0-7.2,1.5-9.8,4L68,105.9c-5.4,5.4-5.4,14.2,0,19.6l131.5,130L68.4,387.1  c-2.6,2.6-4.1,6.1-4.1,9.8c0,3.7,1.4,7.2,4.1,9.8l37.4,37.6c2.7,2.7,6.2,4.1,9.8,4.1c3.5,0,7.1-1.3,9.8-4.1L256,313.1l130.7,131.1  c2.7,2.7,6.2,4.1,9.8,4.1c3.5,0,7.1-1.3,9.8-4.1l37.4-37.6c2.6-2.6,4.1-6.1,4.1-9.8C447.7,393.2,446.2,389.7,443.6,387.1z" />
+					</svg>
+				</div>
+				<picture>
+					<source class="_poster-alt" type="image/webp">
+					<img class="product-card__poster _poster" alt="Poster">
+				</picture>
+				<div class="product-detail-popup__content">
+					<h3 class="product-detail-popup__title _title"></h3>
+					<p class="product-detail-popup__description _description"></p>
+					<button class="product-detail-popup__button" onclick="project.productDetailedModal.addToCart()">Добавит в корзину</button>
+					<div class="product-detail-popup__counter counter">
+						<button class="counter__decrease" onclick="project.productDetailedModal.decreaseQuantity()">-</button>
+						<div class="counter__value _value"></div>
+						<button class="counter__increase" onclick="project.productDetailedModal.increaseQuantity()">+</button>
+						<span class="counter__summ">Сумма: <span class="_summ"></span> ₽</span>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+		<div class="popup _overlay"></div>
+		<script type="text/javascript" src="./main.min.js" defer="" async=""></script>
+	</body>
+
+	</html>

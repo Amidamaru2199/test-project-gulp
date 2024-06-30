@@ -1,0 +1,15 @@
+<section class="cards">
+    <h1>Манга</h1>
+    <div class="cards-grid">
+        {% for product in products %}
+            {% include '/blocks/product-card/product-card.twig' with {
+                id: product.id,
+                img: product.img,
+                title: product.title,
+                description: product.description,
+                autor: product.autor,
+                price: product.price,
+            } %}
+        {% endfor %}
+    </div>
+</section>
